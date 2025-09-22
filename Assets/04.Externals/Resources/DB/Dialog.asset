@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b7292cd27e5f5746a9fae077217f2c7, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  DialogSheet:
+  - Id: 10100101
+    NPC_Id: 10100101
+    Text: "\uC88B\uC740 \uC544\uCE68\uC785\uB2C8\uB2E4. \uC808 \uB3C4\uC640\uC8FC\uC2E4\uC218\uC788\uB098\uC694?"
+    Choice1: "\uB124 \uBB3C\uB860\uC774\uC8E0"
+    Choice1_Next_Id: 11100101
+    Choice2: "\uC548\uC0AC\uC694"
+    Choice2_Next_Id: 11200101
+    State: 1
+    Quest_Id: 0
+    Clear_Id: 11300101
+  - Id: 11100101
+    NPC_Id: 10100101
+    Text: '{Quest_Name} \ {Quest_Goal}'
+    Choice1: "\uC218\uB77D"
+    Choice1_Next_Id: 0
+    Choice2: "\uB2EB\uAE30"
+    Choice2_Next_Id: 0
+    State: 2
+    Quest_Id: 10100101
+    Clear_Id: 0
+  - Id: 11200101
+    NPC_Id: 10100101
+    Text: "\uB124\u2026"
+    Choice1: 
+    Choice1_Next_Id: 0
+    Choice2: "\uB2EB\uAE30"
+    Choice2_Next_Id: 0
+    State: 4
+    Quest_Id: 0
+    Clear_Id: 0
+  - Id: 11300101
+    NPC_Id: 10100101
+    Text: "\uACE0\uB9D9\uB2E4 \uC090\uBE45"
+    Choice1: 
+    Choice1_Next_Id: 0
+    Choice2: "\uB2EB\uAE30"
+    Choice2_Next_Id: 0
+    State: 8
+    Quest_Id: 0
+    Clear_Id: 0
+  - Id: 10100102
+    NPC_Id: 10100102
+    Text: "\uC774\uBCF4\uAC8C"
+    Choice1: "\uBB34\uC2A8\uC77C\uC774\uC8E0?"
+    Choice1_Next_Id: 11100102
+    Choice2: "\uAC70\uC808\uD560\uAC8C\uC694"
+    Choice2_Next_Id: 11300102
+    State: 1
+    Quest_Id: 0
+    Clear_Id: 11400102
+  - Id: 11100102
+    NPC_Id: 10100102
+    Text: "\uB3C4\uC640\uC8FC\uC2DC\uC624"
+    Choice1: "\uADF8\uB7FC\uC694"
+    Choice1_Next_Id: 11200102
+    Choice2: "\uB2EB\uAE30"
+    Choice2_Next_Id: 11400102
+    State: 1
+    Quest_Id: 0
+    Clear_Id: 0
+  - Id: 11200102
+    NPC_Id: 10100102
+    Text: '{Quest_Name} \ {Quest_Goal}'
+    Choice1: "\uC218\uB77D"
+    Choice1_Next_Id: 0
+    Choice2: "\uB2EB\uAE30"
+    Choice2_Next_Id: 0
+    State: 2
+    Quest_Id: 10100102
+    Clear_Id: 0
+  - Id: 11300102
+    NPC_Id: 10100102
+    Text: "\uC544\uC27D\uAD6C\uB824"
+    Choice1: 
+    Choice1_Next_Id: 0
+    Choice2: "\uB2EB\uAE30"
+    Choice2_Next_Id: 0
+    State: 4
+    Quest_Id: 0
+    Clear_Id: 0
+  - Id: 11400102
+    NPC_Id: 10100102
+    Text: "\uACE0\uB9D9\uC18C"
+    Choice1: 
+    Choice1_Next_Id: 0
+    Choice2: "\uB2EB\uAE30"
+    Choice2_Next_Id: 0
+    State: 8
+    Quest_Id: 0
+    Clear_Id: 0
+  - Id: 20100101
+    NPC_Id: 20100101
+    Text: "\uC5B4\uC11C\uC624\uC2DC\uC624"
+    Choice1: "\uC548\uB1FD"
+    Choice1_Next_Id: 21100101
+    Choice2: "\uC2EB\uC5B4"
+    Choice2_Next_Id: 21300101
+    State: 1
+    Quest_Id: 0
+    Clear_Id: 21400101
+  - Id: 21100101
+    NPC_Id: 20100101
+    Text: "\uD0D0\uBC29\uD574\uBCF4\uC138\uC694"
+    Choice1: "\uC88B\uC544"
+    Choice1_Next_Id: 21200101
+    Choice2: "\uB2EB\uAE30"
+    Choice2_Next_Id: 21400101
+    State: 1
+    Quest_Id: 0
+    Clear_Id: 0
+  - Id: 21200101
+    NPC_Id: 20100101
+    Text: '{Quest_Name} \ {Quest_Goal}'
+    Choice1: "\uC218\uB77D"
+    Choice1_Next_Id: 0
+    Choice2: "\uB2EB\uAE30"
+    Choice2_Next_Id: 0
+    State: 2
+    Quest_Id: 20100101
+    Clear_Id: 0
+  - Id: 21300101
+    NPC_Id: 20100101
+    Text: "\uC544\uC27D\uAD6C\uB824"
+    Choice1: 
+    Choice1_Next_Id: 0
+    Choice2: "\uB2EB\uAE30"
+    Choice2_Next_Id: 0
+    State: 4
+    Quest_Id: 0
+    Clear_Id: 0
+  - Id: 21400101
+    NPC_Id: 20100101
+    Text: "\uACE0\uB9D9\uC18C"
+    Choice1: 
+    Choice1_Next_Id: 0
+    Choice2: "\uB2EB\uAE30"
+    Choice2_Next_Id: 0
+    State: 8
+    Quest_Id: 0
+    Clear_Id: 0

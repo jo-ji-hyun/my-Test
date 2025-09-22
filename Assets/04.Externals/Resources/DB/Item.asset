@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ea48a749b172054f9a0d481d9b76f87, type: 3}
+  m_Name: Item
+  m_EditorClassIdentifier: 
+  Itemsheet:
+  - id: 10100101
+    name: "\uC5F4\uC1E0"
+    description: "\uC5F4\uC1E0\uB2E4."
+    attack: 1
+    image_path: Sprite/Item001
+    PosX: 188
+    PosY: 150
+    Flags: 2
+    Width: 1
+    Length: 1
+  - id: 10100102
+    name: "\uBC88\uAC1C\uD0C4"
+    description: "\uBD88\uC3D8\uC2DC\uAC1C "
+    attack: 2
+    image_path: Sprite/Item002
+    PosX: -150
+    PosY: 200
+    Flags: 2
+    Width: 1
+    Length: 2
+  - id: 10100103
+    name: "\uCE74\uBA54\uB77C"
+    description: "3d\uAC19\uC740 2d\uC774\uBBF8\uC9C0"
+    attack: 13
+    image_path: Sprite/Item003
+    PosX: 55
+    PosY: 30
+    Flags: 2
+    Width: 1
+    Length: 3
+  - id: 10100104
+    name: "\uC0AC\uACFC"
+    description: "\uC560\uD50C"
+    attack: 44
+    image_path: Sprite/Item004
+    PosX: 150
+    PosY: 45
+    Flags: 2
+    Width: 1
+    Length: 1
+  - id: 10100105
+    name: "\uAD6C\uB974\uAE30"
+    description: "\uAD6C\uB978\uB2E4!"
+    attack: 100
+    image_path: Sprite/Item005
+    PosX: 145
+    PosY: -55
+    Flags: 2
+    Width: 1
+    Length: 1
+  - id: 10100106
+    name: "\uB2EC\uB9AC\uAE30"
+    description: "\uB2EC\uB9B0\uB2E4!"
+    attack: 0
+    image_path: Sprite/Item006
+    PosX: 55
+    PosY: 62
+    Flags: 2
+    Width: 1
+    Length: 2
+  - id: 20100101
+    name: "\uB3C8"
+    description: "\uC9C4\uC9DC\uB3C8 \uC544\uB2D8"
+    attack: 1
+    image_path: 
+    PosX: 10
+    PosY: 10
+    Flags: 1
+    Width: 1
+    Length: 2
+  - id: 20100102
+    name: "\uB538\uAE30"
+    description: "\uB9DB\uC788\uC74C"
+    attack: 2
+    image_path: 
+    PosX: 20
+    PosY: -50
+    Flags: 1
+    Width: 1
+    Length: 2
+  - id: 20100103
+    name: "\uADE4"
+    description: "\uB030'"
+    attack: 3
+    image_path: 
+    PosX: 30
+    PosY: -15
+    Flags: 1
+    Width: 1
+    Length: 2
+  - id: 20100104
+    name: "\uAC10"
+    description: "\uC5E5"
+    attack: 4
+    image_path: 
+    PosX: 55
+    PosY: 60
+    Flags: 1
+    Width: 1
+    Length: 2
+  - id: 20100105
+    name: "\uBC30"
+    description: "\uD0C0\uB294\uBC30\uC544\uB2D8"
+    attack: 5
+    image_path: 
+    PosX: 0
+    PosY: 5
+    Flags: 1
+    Width: 1
+    Length: 2
